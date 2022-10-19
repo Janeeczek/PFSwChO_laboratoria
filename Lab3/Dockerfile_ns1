@@ -1,0 +1,3 @@
+FROM ubuntu
+COPY ../../../../../Downloads/secrets/.hidden.txt /
+CMD [ "/bin/bash" ]
